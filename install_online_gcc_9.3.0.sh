@@ -18,7 +18,7 @@ if [ $gcc1 -gt 9 ];then
     exit 1
 fi
     
-read -p "Input installation directory for 6.2.0--->" gcc9dir
+read -p "Input installation directory for 9.3.0--->" gcc9dir
 if [ ! -n "$gcc9dir" ]; then
   echo "Wrong: not a valid directory";
   exit 1
